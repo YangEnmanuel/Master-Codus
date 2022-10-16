@@ -1,0 +1,281 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(imagenes/scotland-1761292.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height: 653px;
+    background-attachment: fixed;
+    overflow: hidden;
+    text-align: center;
+    color: #fff;
+}
+
+header .textos {
+    margin-top: 152px;
+}
+
+header .titulo {
+    font-size: 85px;
+    font-family: 'Lucida Handwriting';
+}
+
+header .subtitulo {
+    font-size: 42px;
+    font-weight: 300;
+    margin-bottom: 32px;
+    margin-top: 45px;
+}
+
+.boton {
+    padding: 7px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+    border: 2px solid #fff;
+    font-size: 19px;
+    border-radius: 15px;
+}
+
+.boton:hover {
+    background-color: #fff;
+    color: darkgrey;
+    transition: all ease .5s;
+}
+
+.sesgoabajo {
+    z-index: 10;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-width: 0 0 25vh 100vw;
+    border-style: solid;
+    border-color: transparent transparent #fff transparent;
+}
+
+.sesgoarriba {
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-width: 25vh 100vw 0 0;
+    border-style: solid;
+    border-color: #fff transparent transparent transparent;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 52px 0;
+}
+
+.sobrenosotros {
+    font-size: 56px;
+    font-family: Andalus;
+    text-align: center;
+    font-weight: 600;
+    margin-bottom: 13px;
+}
+
+.slogan {
+    font-size: 24px;
+    font-weight: 300;
+    margin-bottom: 24px;
+    text-align: center;
+}
+
+.parrafo {
+    margin-bottom: 13px;
+    font-weight: 300;
+    text-align: justify;
+    line-height: 24px;
+    color: rgb(24, 16, 16);
+}
+
+.galeria {
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+
+.imagenes {
+    width: 20%;
+    height: 500px;
+    position: relative;
+    overflow: hidden;
+}
+
+.imagenes img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.encima {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(52, 73, 94, 0.815);
+}
+
+.encima h2 {
+    position: relative;
+    top: 45%;
+    text-align: center;
+    color: #fff;
+    font-family: 'Lucida Fax';
+}
+
+.encima div {
+    position: relative;
+    display: block;
+    top: 46%;
+    width: 40px;
+    height: 5px;
+    background-color: #fff;
+    margin: auto;
+}
+
+.pie {
+    padding: 10px;
+    left: 50;
+    right: 50;
+}
+
+footer {
+    margin-left: 16%;
+}
+
+footer ul {
+    list-style: none;
+}
+
+footer li {
+    float: left;
+    font-weight: 300;
+    margin-left: 7px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: #fff;
+    background-color: #333;
+    box-shadow: 3px 4px #505050;
+    font-family: 'Old English Text MT';
+    font-size: 24px;
+}
+
+footer ul li a:hover {
+    background-color: #707070;
+    color: #F3F3F3;
+    transition: all .3s ease;
+}
+
+
+/*Barra de redes sociales*/
+
+.social {
+    position: fixed;
+    left: 0;
+    top: 200px;
+    z-index: 2000;
+}
+
+.social ul {
+    list-style: none;
+}
+
+.social ul li a {
+    display: inline-block;
+    color: #fff;
+    background: #000;
+    padding: 10px 15px;
+    text-decoration: none;
+    transition: 600ms ease;
+}
+
+.social ul li .icon-facebook {
+    background: #3b5998;
+}
+
+.social ul li .icon-youtube {
+    background: red;
+}
+
+.social ul li .icon-google-plus {
+    background: #d95232;
+}
+
+.social ul li .icon-pinterest {
+    background: #ae181F;
+}
+
+.social ul li .icon-mail4 {
+    background: #666666;
+}
+
+.social ul li a:hover {
+    padding: 10px 28px;
+    background-color: #000;
+}
+
+
+/*Texto animado*/
+
+.contenedor-txt {
+    background-image: url("imagenes/footer.png");
+    padding-bottom: 50px;
+}
+
+.contenedor-txt .TiTuLo {
+    font-size: 50px;
+    font-weight: normal;
+    margin-bottom: 40px;
+    margin-left: 450px;
+    padding-top: 30px;
+}
+
+.follow {
+    font-family: Dancing Script;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.contenedor-txt .network {
+    font-weight: 700;
+    font-style: normal;
+}
+
+.contenedor-txt .network {
+    font-style: normal;
+}
+
+#fb {
+    color: #3e5ea3;
+}
+
+#ins {
+    color: #e1306c;
+}
+
+#tw {
+    color: #028fc7;
+}
+
+#yt {
+    color: rgba(255, 0, 0);
+}
